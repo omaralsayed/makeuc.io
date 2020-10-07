@@ -92,3 +92,7 @@ main {
 .partner:hover {
   opacity: 0.60;
 }
+
+#ghost {
+  display: none;
+}

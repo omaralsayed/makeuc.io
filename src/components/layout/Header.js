@@ -59,8 +59,16 @@ const Header = ({ page = `index` } = {}) => {
         )}
         <div className="hidden md:block">
           {page === `index` ? (
-            <Link to="/register">
-              <Button className="text-sm font-bold">REGISTER NOW!</Button>
+            // <Link to="/register">
+            //   <Button className="text-sm font-bold">REGISTER NOW!</Button>
+            // </Link>
+
+            // <Link to="https://live.makeuc.io">
+            //   <Button className="text-sm font-bold">LIVE SITE</Button>
+            // </Link>
+
+            <Link to="https://makeuc-2020.devpost.com">
+              <Button className="text-sm font-bold">DEVPOST</Button>
             </Link>
           ) : (
             <Link to="/">
